@@ -108,34 +108,27 @@
 
               <!-- ─── 논문 1 (highlight 예시) ─── -->
               <!-- ★ paperthumbnail1.gif 또는 .jpg 를 images/ 폴더에 넣으세요 -->
-              <tr class="highlighted">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <img src="images/paper1_thumbnail.jpg" width="160" alt="paper1 thumbnail"
-                      onerror="this.style.background='#eee';this.style.height='100px'">
-                  </div>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <!-- ★ 논문 제목, 링크, 저자, 학회, 설명을 여기에 채우세요 -->
-                  <a href="#">
-                    <span class="papertitle">Paper Title One</span>
-                  </a>
-                  <br>
-                  <strong>Mincheol Kwon</strong>,
-                  Co-author One,
-                  Co-author Two
-                  <br>
-                  <em>Conference / Journal Name</em>, Year
-                  <br>
-                  <!-- 링크들: 필요한 것만 남기고 나머지는 지우세요 -->
-                  <a href="#">paper</a> /
-                  <a href="#">arXiv</a> /
-                  <a href="#">code</a>
-                  <p>
-                    One or two sentences describing what this paper does and why it matters.
+              <div style="display:flex;align-items:flex-start;margin-bottom:24px;gap:24px;">
+                <!-- 썸네일: images/pinpoint_thumbnail.jpg 로 넣으면 됩니다 -->
+                <img src="images/pinpoint_thumbnail.jpg" width="180" style="flex-shrink:0;"
+                  onerror="this.style.background='#eee';this.style.width='180px';this.style.height='120px'">
+                <div>
+                  <p style="margin:0 0 4px 0;">
+                    <strong>Focus, Don't Prune: Identifying Instruction-Relevant Regions for Information-Rich Image
+                      Understanding</strong>
                   </p>
-                </td>
-              </tr>
+                  <p style="margin:0 0 4px 0;">
+                    <strong>Mincheol Kwon</strong>, Minseung Lee, Seonga Choi, Miso Choi, Kyeong-Jin Oh, Hyunyoung Lee, Cheonyoung
+                    Park, Yongho Song, Seunghyun Park, Jinkyu Kim
+                  </p>
+                  <p style="margin:0 0 6px 0;">
+                    <em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026, Denver CO, USA. (Acceptance
+                      Rate: 25.4%)</em>
+                  </p>
+                  <a href="https://arxiv.org/abs/2603.22815">[Paper]</a>
+                  <a href="https://github.com/minckwon/PinPoint">[Code]</a>
+                </div>
+              </div>
 
               <!-- ─── 논문 2 ─── -->
               <tr>
